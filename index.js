@@ -13,7 +13,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
     cors: {
-        origin: 'https://tic-tac-toe.onrender.com',
+        origin: 'https://tic-tac-toe-cvbe.onrender.com',
         // origin: 'http://localhost:3000',
         methods: ['GET', 'POST'],
     },
